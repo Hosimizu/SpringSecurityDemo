@@ -6,3 +6,19 @@ spring:
     password: 123456
   thymeleaf:
     cache: false
+
+#jwt:
+#  secret: ffjaksdfjaklf # 秘钥
+#  expiration: 3600000   # 过期时间 (秒)
+#  header: JWTHeaderName # 请求头信息
+
+# token配置
+token:
+  # 令牌自定义标识
+  header: Authorization
+  # 令牌秘钥
+  #  secret: abcdefghijklmnopqrstuvwxyz
+  secret: (EMOK:)_$^11244^%$_(IS:)_@@++--(COOL:)_++++_.sds_(GUY:)
+  # 令牌有效期
+  expireTime: 3600000
+
